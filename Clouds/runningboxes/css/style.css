@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: gray;
+}
+
+.container{
+    border: 2px solid wheat;
+    height: 804px;
+    width: 804px;
+    margin: 2rem auto;
+    position: relative;
+}
+
+
+/*
+.box{
+    border: 1px solid wheat;
+    border-radius: 5%;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    Left: 18px; 
+    top: 30px;
+    animation-name: runningbox;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes runningbox{
+    0% {Left: 0; top: 0}
+    25%{Left: 600px; top: 0}
+    50%{Left: 600px; top: 600px}
+    75%{Left: 0; top:600px;}
+    100%{left: 0; top: 0}
+}
+
+
+@keyframes runningbox{
+    0%{Left: 18px; top: 30px;}
+    5%{Left: 20px; top: 45px;}
+    10%{Left: 30px; top: 45px;}
+    25%{Left: 35px; top: 50px;}
+    35%{Left: 25px; top: 56px;}
+    45%{Left: 15px; top: 35px;}
+    55%{Left: 10px; top: 29px;}
+    65%{Left: 8px; top: 25px;}
+    75%{Left: 10px; top: 21px;}
+    85%{Left: 14px; top: 23px;}
+    95%{Left: 17px; top: 28px;}
+    100%{Left: 20px; top: 33px;}
+}
+
+*/
+
+
+.mountain{
+    height: 401px;
+    width: 401px;
+    position: absolute;
+}
+
+
+.cloud-one{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: -0.2px;
+    right: 240px;
+    animation-name: movingcloud1;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes movingcloud1{
+    0%{right: 37px; top: 30px;}
+    5%{right: 58 px; top: 45px;}
+    10%{right: 30px; top:45px;}
+    25%{right: 10px; top: 70px;}
+    35%{right: 44px; top: 36px;}
+    45%{right: 33px; top: 15px;}
+    55%{right: 89px; top: 49px;}
+    65%{right: 67px; top: 35px;}
+    75%{right: 51px; top: 61px;}
+    85%{right: 81px; top: 43px;}
+    95%{right: 40px; top: 38px;}
+    100%{right: 20px; top: 44px;}
+}
+
+.cloud-two{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: -800px;
+    left: 240px;
+    animation-name: movingcloud2;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes movingcloud2{
+    0%{Left: 8px; top: 30px;}
+    5%{Left: 1px; top: 45px;}
+    10%{Left: 30px; top: 45px;}
+    25%{Left: 10px; top: 50px;}
+    35%{Left: 15px; top: 56px;}
+    45%{Left: 17px; top: 35px;}
+    55%{Left: 80px; top: 29px;}
+    65%{Left: 1px; top: 25px;}
+    75%{Left: 15px; top: 21px;}
+    85%{Left: 10px; top: 23px;}
+    95%{Left: 00px; top: 28px;}
+    100%{Left: 20px; top: 33px;}
+}
